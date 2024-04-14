@@ -14,3 +14,4 @@ A little bittle raymarched landscape I made in a day + (very slow) raytracing mo
   - Oceans
 - I dunno man, you could use this as a template for your own raytracer/raymarcher shader.
 - a super slow RAYTRACING MODE!!!! (it's amazing)
+- Clouds that totally weren't bugs I kept in
