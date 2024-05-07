@@ -115,8 +115,8 @@ void planeSDF(float d, vec3 position) {
 
 void terrainSDF(vec3 position) {
     float tempNoise = terrain(vec2(position.x, position.z));
-    if(position.y - tempNoise < SDF) {
-        SDF = position.y - tempNoise;
+    if((position.y - tempNoise) * 0.7 < SDF) {
+        SDF = (position.y - tempNoise) * 0.7;
         SDF_T = 1;
     }
 }
